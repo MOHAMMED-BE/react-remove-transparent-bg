@@ -1,0 +1,25 @@
+{
+  "name": "react-remove-transparent-bg",
+  "version": "1.0.0",
+  "description": "A package for removing transparent backgrounds from images.",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOHAMMED-BE/react-remove-transparent-bg.git"
+  },
+  "keywords": [
+    "react",
+    "image",
+    "background",
+    "transparent"
+  ],
+  "author": "MOHAMMED BEN-SEGHIR",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
