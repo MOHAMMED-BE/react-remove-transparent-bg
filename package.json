@@ -1,6 +1,6 @@
 {
   "name": "react-remove-transparent-bg",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A package for removing transparent backgrounds from images.",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
