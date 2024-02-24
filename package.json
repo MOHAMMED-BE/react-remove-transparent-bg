@@ -1,6 +1,6 @@
 {
   "name": "react-remove-transparent-bg",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Resize images by removing the transparent parts from an image.",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
