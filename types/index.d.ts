@@ -1,1 +1,1 @@
-declare module 'react-remove-transparent-bg';
+export { default } from './removeTransparentBackground';

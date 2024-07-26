@@ -5,11 +5,12 @@ The Image Background Remover is a lightweight package designed to resize images 
 This functionality is particularly useful for processing images for e-commerce platforms, design applications, or any web-based project .
 
 ## Installation
-To add this package to your project, execute the following command in your terminal:
+You can install `react-remove-transparent-bg` via npm or yarn:
 
 ```bash
-npm i react-remove-transparent-bg
-
+npm install react-remove-transparent-bg
+# or
+yarn add react-remove-transparent-bg
 ```
 ## Usage
 
@@ -27,7 +28,7 @@ const [imageFile, setImageFile] = useState<File>()
 const formData = new FormData();
 
 //-- Using formik
-const image =await removeTransparentBackground(values.image as unknown as File)
+const image = await removeTransparentBackground(values.image as unknown as File)
 formData.append('image', image);
 
 //-- Using useState
